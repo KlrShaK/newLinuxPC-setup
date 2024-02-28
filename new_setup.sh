@@ -30,3 +30,6 @@ sudo apt-get install cuda-11-7
 # --------------------------------------------------------------------
 echo "Installed CUDA!" 
 
+sudo add-apt-repository ppa:flexiondotorg/nvtop
+sudo apt install nvtop
+echo "Installed NVTOP!" 
